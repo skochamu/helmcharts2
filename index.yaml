@@ -8,7 +8,7 @@ entries:
     digest: 900360ebd5009d494f5f980f15a9199eac96e4eac43234070e27861af4072ded
     name: ping
     urls:
-    - https://github.com/ananda5/helmcharts/charts/ping-0.3.0.tgz
+    - https://ananda5.github.io/helmcharts/charts/ping-0.3.0.tgz
     version: 0.3.0
   pong:
   - apiVersion: v1
@@ -18,6 +18,6 @@ entries:
     digest: 6d7fc455f092da7690788f13f83b4b48e2dca2630cc9ffb93e9599e33120d931
     name: pong
     urls:
-    - https://github.com/ananda5/helmcharts/charts/pong-0.2.0.tgz
+    - https://ananda5.github.io/helmcharts/charts/pong-0.2.0.tgz
     version: 0.2.0
 generated: "2023-01-03T11:33:35.483729431Z"
