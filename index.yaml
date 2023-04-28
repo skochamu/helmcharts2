@@ -3,9 +3,9 @@ entries:
   ping:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-01-03T11:33:35.484418404Z"
+    created: "2023-04-28T08:00:22.06331275Z"
     description: A Helm chart for RIFT.ware ping with dhcp
-    digest: 900360ebd5009d494f5f980f15a9199eac96e4eac43234070e27861af4072ded
+    digest: 453bb829aabd3c30bb4a3e743b349bb78179293a63fa161a058ccf1706110e61
     name: ping
     urls:
     - https://ananda5.github.io/helmcharts/charts/ping-0.3.0.tgz
@@ -13,11 +13,11 @@ entries:
   pong:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-01-03T11:33:35.484773992Z"
+    created: "2023-04-28T08:00:22.064331566Z"
     description: A Helm chart for RIFT.ware pong
-    digest: 6d7fc455f092da7690788f13f83b4b48e2dca2630cc9ffb93e9599e33120d931
+    digest: a3d3940d277cc47b15aaf00b6acf063505000c6859528551e7a83d2735915242
     name: pong
     urls:
     - https://ananda5.github.io/helmcharts/charts/pong-0.2.0.tgz
     version: 0.2.0
-generated: "2023-01-03T11:33:35.483729431Z"
+generated: "2023-04-28T08:00:22.062162882Z"
