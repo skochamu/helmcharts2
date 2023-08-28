@@ -22,7 +22,7 @@ spec:
         type: pong
       annotations:
         dzsi.com/dzsx-network-function-id: service:DZSXNetworkFunction:oidc:02aaac4e-af45-4d82-9988-c464918780d4
-        dzsi.com/dzsx-network-function-href: https://10.157.109.200:443/tmf-api/mano/serviceInventory/v4/oidc/service/service:DZSXNetworkFunction:oidc:02aaac4e-af45-4d82-9988-c464918780d4
+        dzsi.com/dzsx-network-function-href: https://10.157.110.8:443/tmf-api/mano/serviceInventory/v4/oidc/service/service:DZSXNetworkFunction:oidc:02aaac4e-af45-4d82-9988-c464918780d4
         k8s.v1.cni.cncf.io/networks: '[{"name": {{ .Values.macvlanNetName | quote }},
                                         "namespace": {{ .Values.macvlanNetNamespace | quote }}}]'
         {{- if .Values.metrics.enabled }}
