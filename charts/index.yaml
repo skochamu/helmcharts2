@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  ping:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-10-27T03:56:53.976962668Z"
+    description: A Helm chart for RIFT.ware ping with dhcp
+    digest: 453bb829aabd3c30bb4a3e743b349bb78179293a63fa161a058ccf1706110e61
+    name: ping
+    urls:
+    - https://github.com/skochamu/helmcharts2.git/ping-0.3.0.tgz
+    version: 0.3.0
+  pong:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-10-27T03:56:53.977443323Z"
+    description: A Helm chart for RIFT.ware pong
+    digest: a3d3940d277cc47b15aaf00b6acf063505000c6859528551e7a83d2735915242
+    name: pong
+    urls:
+    - https://github.com/skochamu/helmcharts2.git/pong-0.2.0.tgz
+    version: 0.2.0
+generated: "2023-10-27T03:56:53.97622762Z"
