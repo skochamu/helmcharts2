@@ -1,9 +1,55 @@
 apiVersion: v1
 entries:
+  nginx:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.24.0
+    created: "2023-10-31T06:27:32.684600126Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: 0818b75795e6bf84abc56372742f6f7855f7e8820996082107bb88d5b046a99e
+    home: https://github.com/bitnami/charts/tree/main/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/nginx
+    - https://www.nginx.org
+    urls:
+    - https://github.com/skochamu/helmcharts2.git/nginx-14.0.0.tgz
+    version: 14.0.0
+  nutss-management-backend-worker:
+  - apiVersion: v2
+    appVersion: 0.43.1-dev-18434972
+    created: "2023-10-31T06:27:32.685561995Z"
+    description: A Helm chart for Kubernetes
+    digest: 4b965dccdeee460e69d29b9e66561f292d41c001bea21e430fe6fce447e0a1ca
+    name: nutss-management-backend-worker
+    type: application
+    urls:
+    - https://github.com/skochamu/helmcharts2.git/nutss-management-backend-worker-0.43.1-dev-18434972.tgz
+    version: 0.43.1-dev-18434972
   ping:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-10-27T03:56:53.976962668Z"
+    created: "2023-10-31T06:27:32.686060468Z"
     description: A Helm chart for RIFT.ware ping with dhcp
     digest: 453bb829aabd3c30bb4a3e743b349bb78179293a63fa161a058ccf1706110e61
     name: ping
@@ -13,11 +59,11 @@ entries:
   pong:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-10-27T03:56:53.977443323Z"
+    created: "2023-10-31T06:27:32.686528418Z"
     description: A Helm chart for RIFT.ware pong
     digest: a3d3940d277cc47b15aaf00b6acf063505000c6859528551e7a83d2735915242
     name: pong
     urls:
     - https://github.com/skochamu/helmcharts2.git/pong-0.2.0.tgz
     version: 0.2.0
-generated: "2023-10-27T03:56:53.97622762Z"
+generated: "2023-10-31T06:27:32.676847551Z"
