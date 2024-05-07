@@ -1,0 +1,10 @@
+apiVersion: k8s.cni.cncf.io/v1
+kind: NetworkAttachmentDefinition
+metadata:
+  name: multusnet-lb2
+spec:
+  config: '{ "cniVersion": "0.4.0", "name": "multusnet-lb2", "plugins": [{ "type":
+    "ipvlan", "master": "bond2.2224",
+
+    "ipam": { "type": "static", "addresses":[{ "address": "172.22.95.165/27", "gateway":
+    "172.22.95.161" }] } },{ "type": "sbr" }] }'
