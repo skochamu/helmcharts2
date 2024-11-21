@@ -22,7 +22,7 @@ spec:
         type: ping
       annotations:
         dzsi.com/dzsx-network-function-id: dso/Service/cbdso-ref-a/fluxcd:58a5edb2-555e-4a2c-b679-46c1980acceb
-        dzsi.com/dzsx-network-function-href: https://10.157.102.11:443/tmf-api/mano/serviceInventory/v4/fluxcd/service/dso/Service/cbdso-ref-a/fluxcd:58a5edb2-555e-4a2c-b679-46c1980acceb
+        dzsi.com/dzsx-network-function-href: https://10.157.115.3:443/tmf-api/mano/serviceInventory/v4/fluxcd/service/dso/Service/cbdso-ref-a/fluxcd:58a5edb2-555e-4a2c-b679-46c1980acceb
         k8s.v1.cni.cncf.io/networks: '[{"name": {{ .Values.macvlanNetName | quote }},
                                         "namespace": {{ .Values.macvlanNetNamespace | quote }}}]'
         {{- if .Values.metrics.enabled }}
