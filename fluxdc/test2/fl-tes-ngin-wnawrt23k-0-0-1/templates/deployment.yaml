@@ -27,7 +27,7 @@ spec:
         {{- end }}
       annotations:
         dzsi.com/dzsx-network-function-id: dso/Service/cbdso-ref-a/fluxcd:fd28c096-14f0-4909-a8e3-1e57aa736494
-        dzsi.com/dzsx-network-function-href: https://10.157.102.11:443/tmf-api/mano/serviceInventory/v4/fluxcd/service/dso/Service/cbdso-ref-a/fluxcd:fd28c096-14f0-4909-a8e3-1e57aa736494
+        dzsi.com/dzsx-network-function-href: https://10.157.115.3:443/tmf-api/mano/serviceInventory/v4/fluxcd/service/dso/Service/cbdso-ref-a/fluxcd:fd28c096-14f0-4909-a8e3-1e57aa736494
         {{- if .Values.podAnnotations }}
         {{- include "common.tplvalues.render" ( dict "value" .Values.podAnnotations "context" $) | nindent 8 }}
         {{- end }}
