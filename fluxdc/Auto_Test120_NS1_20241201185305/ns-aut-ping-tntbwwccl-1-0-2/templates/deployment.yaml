@@ -21,8 +21,8 @@ spec:
         network-service-id: {{ .Values.global.nsId }}
         type: ping
       annotations:
-        dzsi.com/dzsx-network-function-id: dso/Service/cbdso-ref-a/ns:571665cc-66fe-482c-b071-d9de21e4496f
-        dzsi.com/dzsx-network-function-href: https://:443/tmf-api/mano/serviceInventory/v4/ns/service/dso/Service/cbdso-ref-a/ns:571665cc-66fe-482c-b071-d9de21e4496f
+        dzsi.com/dzsx-network-function-id: dso/Service/cbdso-ref-a/ns:c73bb62d-5377-41f9-8a86-e9591f7ad5d3
+        dzsi.com/dzsx-network-function-href: https://:443/tmf-api/mano/serviceInventory/v4/ns/service/dso/Service/cbdso-ref-a/ns:c73bb62d-5377-41f9-8a86-e9591f7ad5d3
         k8s.v1.cni.cncf.io/networks: '[{"name": {{ .Values.macvlanNetName | quote }},
                                         "namespace": {{ .Values.macvlanNetNamespace | quote }}}]'
         {{- if .Values.metrics.enabled }}
